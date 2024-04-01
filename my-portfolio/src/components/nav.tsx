@@ -1,11 +1,5 @@
-import {useState} from 'react'
-
 
 const Nav = () => {
-    const[nav, setNav] = useState(true)
-
-    const handleNav = () => setNav(!nav)
-
     return (
         <div className='flex h-16 w-full mx-auto px-10 text-black border-b-2'>
             <ul className='space-x-4 pt-2  md:flex w-full flex justify-center sm:justify-start'>
