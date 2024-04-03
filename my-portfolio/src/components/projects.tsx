@@ -3,8 +3,14 @@ import { SiBlazor, SiPowerbi, SiJavascript, SiMicrosoftazure} from "react-icons/
 import {
   IconBrandCSharp,
   IconFileTypeSql,
+  IconBrandSass,
+  IconHtml,
+  IconBrandCss3
 } from "@tabler/icons-react";
-import testImage from '../assets/test.jpg'; // Import the image
+import haverImage from '../assets/haver.svg';
+import emmaImage from '../assets/emma.svg';
+import ztalmyImage from '../assets/ztalmy.svg';
+import emailImage from '../assets/email.svg';
 
 
 export function ProjectSection() {
@@ -35,14 +41,11 @@ export function ProjectSection() {
   );
 }
 
-const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border border-transparent dark:border-white/[0.2] bg-slate-300 dark:bg-black"></div>
-  );
   const items = [
     {
       title: "Haver Niagara NCR App",
       description: <p className="text-[10px]">The project manages NCR reports, roles, users, authentication, emails, Excel reports, PDF reports, and Power BI for dashboards.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
-      header: <Skeleton />,
+      header: <img src={haverImage} alt="Haver Niagara project Image" />,
       className: "md:col-span-3",
       icon: (
         <>
@@ -59,42 +62,43 @@ const Skeleton = () => (
     },
     {
       title: "Emma's Small Engines",
-      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
-      header: <img src={testImage} alt="Test Image" />,
+      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://emmaproject.azurewebsites.net/" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
+      header: <img src={emmaImage} alt="Emma project Image" />,
       className: "md:col-span-3",
       icon: (
         <>
           <div className="flex items-center">  
             <IconBrandCSharp className="h-4 w-4 text-neutral-500 mr-2" /> 
-            <IconFileTypeSql className="h-4 w-4 text-neutral-500" />
+            <IconFileTypeSql className="h-4 w-4 text-neutral-500 mr-2" />
+            <SiBlazor className="h-4 w-4 text-neutral-500 mr-2" /> 
           </div>
         </>
       ),
     },
     {
-      title: "Emma's Small Engines",
-      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
-      header: <Skeleton />,
+      title: "Ztalmy Webpage",
+      description: <p className="text-[10px]">Participation in this project, develop design and responsiveness in the site.<br/><br/><a href="https://www.ztalmy.com/" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
+      header: <img src={ztalmyImage} alt="Ztalmy project Image" />,
       className: "md:col-span-3",
       icon: (
         <>
           <div className="flex items-center">  
-            <IconBrandCSharp className="h-4 w-4 text-neutral-500 mr-2" /> 
-            <IconFileTypeSql className="h-4 w-4 text-neutral-500" />
+            <SiJavascript className="h-4 w-4 text-neutral-500 mr-2" /> 
+            <IconBrandSass className="h-4 w-4 text-neutral-500" />
           </div>
         </>
       ),
     },
     {
-      title: "Emma's Small Engines",
-      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
-      header: <Skeleton />,
+      title: "Email Developer Experience",
+      description: <p className="text-[10px]">Develop emails for marketing that is compatible across different email services.<br/><br/></p>,
+      header: <img src={emailImage} alt="Email project Image" />,
       className: "md:col-span-3",
       icon: (
         <>
           <div className="flex items-center">  
-            <IconBrandCSharp className="h-4 w-4 text-neutral-500 mr-2" /> 
-            <IconFileTypeSql className="h-4 w-4 text-neutral-500" />
+            <IconHtml className="h-4 w-4 text-neutral-500 mr-2" /> 
+            <IconBrandCss3 className="h-4 w-4 text-neutral-500" />
           </div>
         </>
       ),
