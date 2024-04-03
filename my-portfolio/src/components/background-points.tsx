@@ -10,5 +10,3 @@ export function DotBackground() {
     </div>
   );
 }
-
-export default Nav

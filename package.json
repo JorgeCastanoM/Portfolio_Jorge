@@ -1,4 +1,5 @@
 {
+  "homepage": "https://JorgeCastanoM.github.io/Portfolio_Jorge/dist",
   "dependencies": {
     "@tabler/icons-react": "^3.1.0",
     "clsx": "^2.1.0",
