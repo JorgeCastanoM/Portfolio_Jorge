@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "homepage": "https://JorgeCastanoM.github.io/Portfolio_Jorge/dist",
   "dependencies": {
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.12",
