@@ -1,6 +1,8 @@
 import Nav from "./components/nav"
 import HeroSection from "./components/hero"
 import ProjectSection from "./components/projects"
+import SkillsSection from "./components/skills"
+import ContactSection from "./components/contact"
 
 
 
@@ -10,6 +12,8 @@ function App() {
       <Nav />
       <HeroSection />
       <ProjectSection />
+      <SkillsSection />
+      <ContactSection />
     </div>
   )
 }

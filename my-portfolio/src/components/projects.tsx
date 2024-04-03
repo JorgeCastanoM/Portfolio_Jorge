@@ -4,12 +4,12 @@ import {
   IconBrandCSharp,
   IconFileTypeSql,
 } from "@tabler/icons-react";
-import EmmaImage from '../assets/Emma.png'; // Import the image
+import testImage from '../assets/test.jpg'; // Import the image
 
 
 export function ProjectSection() {
   return (
-    <div className="h-4/5 w-full dark:bg-black bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
+    <div className=" w-full dark:bg-black bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center" id="projects">
       <div>
       <div className="mx-auto max-w-4xl mb-10 mt-10">
         <div className="mx-auto w-full lg:mx-0">
@@ -60,7 +60,7 @@ const Skeleton = () => (
     {
       title: "Emma's Small Engines",
       description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
-      header: <Skeleton />,
+      header: <img src={testImage} alt="Test Image" />,
       className: "md:col-span-3",
       icon: (
         <>
