@@ -44,7 +44,8 @@ export function ProjectSection() {
   const items = [
     {
       title: "Haver Niagara NCR App",
-      description: <p className="text-[10px]">The project manages NCR reports, roles, users, authentication, emails, Excel reports, PDF reports, and Power BI for dashboards.<br/><br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
+      description: <p className="text-[10px]">The project manages NCR reports, roles, users, authentication, emails, Excel reports, PDF reports, and Power BI for dashboards.<br/><strong>  User:</strong> admin@outlook.com 
+      <strong>  Password:</strong> Pa55w@rd<br/><a href="https://haverv2team3.azurewebsites.net/Identity/Account/Login" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
       header: <img src={haverImage} alt="Haver Niagara project Image" />,
       className: "md:col-span-3",
       icon: (
@@ -62,7 +63,7 @@ export function ProjectSection() {
     },
     {
       title: "Emma's Small Engines",
-      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://emmaproject.azurewebsites.net/" className="text-blue-500 hover:underline text-[15px]">Link</a></p>,
+      description: <p className="text-[10px]">The project manages employee, customer, and order data using ADO, adapters, datasets, and .NET authentication.<br/><br/><a href="https://emmaproject.azurewebsites.net/" className="text-blue-500 hover:underline text-[15px]">Link</a> </p>,
       header: <img src={emmaImage} alt="Emma project Image" />,
       className: "md:col-span-3",
       icon: (
