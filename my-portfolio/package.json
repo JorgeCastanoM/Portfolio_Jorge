@@ -11,6 +11,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.59",
     "@tabler/icons": "^3.1.0",
     "@tabler/icons-react": "^3.1.0",
     "clsx": "^2.1.0",
