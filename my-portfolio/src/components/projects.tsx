@@ -56,7 +56,7 @@ const items = [
         <strong>Password:</strong> Pa55w@rd
         <br />
         <a
-          href="https://haverv2team3.azurewebsites.net/Identity/Account/Login"
+          href="https://haverdevproject.azurewebsites.net/"
           className="text-blue-500 hover:underline text-[15px]"
         >
           Link
